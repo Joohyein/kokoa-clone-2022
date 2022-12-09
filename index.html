@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Welcome to kokoatalk</title>
+</head>
+<body>
+    <!-- Status bar -->
+    <div id="statusBar">
+        <div class="statusBar__column">
+            <span>No service</span>
+            <i class="fa-sharp fa-solid fa-wifi"></i>
+        </div>
+        <div class="statusBar__column">
+            <span>8:00</span>
+        </div>
+        <div class="statusBar__column">
+            <span>110%</span>
+            <i class="fa-solid fa-battery-full"></i>
+            <i class="fa-solid fa-bolt"></i>
+        </div>
+    </div>
+
+    <!-- Welcome to  -->
+    <header class="welcomeHeader">
+        <h1 class="welcomeHeader__title">Welcome to KokoaTalk</h1>
+        <p class="welcomeHeader__text">If you have a Kokoa Account, log in with your email or phone number.</p>
+    </header>
+
+    <!-- Form -->
+    <form id="loginForm">
+        <input type="text" placeholder="Email or phone number" />
+        <input type="password" placeholder="Password" />
+        <input type="submit" value="Log in" />
+    </form>
+    <a href="#">Find Kokoa Account or Password</a>
+
+    <script src="https://kit.fontawesome.com/642a9c9cc4.js" 
+    crossorigin="anonymous"></script>
+</body>
+</html>
