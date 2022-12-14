@@ -10,6 +10,7 @@
 }
 .status-bar span {
     font-size:14px;
+    color:black;
 }
 .status-bar__column{
     width:33%;
