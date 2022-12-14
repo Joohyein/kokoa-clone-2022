@@ -29,8 +29,8 @@
 .recommended-friends {
     border-top: var(--main-border);
     border-bottom: var(--main-border);
-    padding:25px 0px;
-    margin:25px 0px;
+    padding:20px 0px;
+    margin:20px 0px;
 }
 
 .recommended-friends__title {
@@ -43,4 +43,65 @@
     margin:100px 0px;
     text-align: center;
     color:var(--light-gray);
+}
+
+/* Open Chat -------------------------------------------- */
+.open-chat__header {
+    display: flex;
+    justify-content: space-between;
+    opacity: 0.7;
+    font-size:13px;
+    margin-bottom: 20px;
+}
+
+.open-chat__header span {
+    opacity: 0.5;
+}
+
+.open-post {
+    display:flex;
+}
+
+.open-post__title {
+    font-weight: 500;
+}
+
+.open-post__hashtags {
+    margin-bottom:5px;
+    margin-top:7px;
+    font-size: 13px;
+    text-transform: uppercase;
+    color:var(--light-gray);
+    font-weight: 300;
+}
+
+.open-post__members {
+    display: flex;
+    align-items:center;
+    font-size:12px;
+    color:var(--light-gray);
+}
+
+.open-post__members img {
+    width:15px;
+    height: 15px;
+    border-radius: 50%;
+    margin-right:5px;
+}
+
+.open-post__members-count {
+    margin-right:5px;
+}
+
+.open-post__members .divider {
+    width:2px;
+    height:10px;
+    background-color: black;
+    opacity: 0.3;
+    margin: 0px 5px;
+}
+
+.open-post__member-status {
+    color: #ffb0e0;
+
 }
