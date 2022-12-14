@@ -25,6 +25,7 @@
 }
 
 .user-component__subtitle {
+    font-size:13px;
     margin-top: 8px;
     color:rgb(0,0,0,0.5);
 }
