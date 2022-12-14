@@ -69,3 +69,12 @@
     margin-bottom:5px;
     display:block;
 }
+
+.dot {
+    width:4px;
+    height:4px;
+    border-radius: 50%;
+    background-color:tomato;
+    display: block;
+    display:flex;
+}

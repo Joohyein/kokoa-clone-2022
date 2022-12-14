@@ -1,0 +1,46 @@
+.header__gear {
+    position:absolute;
+    right:-5px;
+    top:-5px;
+}
+
+.find-icons {
+    display: flex;
+    justify-content: space-between;
+}
+
+.find-icons__icon {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.find-icons__icon i {
+    font-size: 25px;
+}
+
+.find-icons__icon span {
+    margin-top:18px;
+    font-size:13px;
+    font-weight: 300;
+}
+
+/* Recommended Friends--------------------------------------------------- */
+.recommended-friends {
+    border-top: var(--main-border);
+    border-bottom: var(--main-border);
+    padding:25px 0px;
+    margin:25px 0px;
+}
+
+.recommended-friends__title {
+    font-size:12px;
+    color:var(--light-gray);
+}
+
+.recommended-friends span {
+    display:block;
+    margin:100px 0px;
+    text-align: center;
+    color:var(--light-gray);
+}

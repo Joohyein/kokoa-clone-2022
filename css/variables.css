@@ -2,6 +2,12 @@
     /* color */
     --yellow:#fae100;
 
+    /* Font color */
+    --light-gray: rgba(0,0,0,0.5);
+
     /* padding */
     --horizontal-space: 20px;
+
+    /* border */
+    --main-border:1px solid rgba(0,0,0,0.1);
 }
