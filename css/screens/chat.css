@@ -1,13 +1,41 @@
 .alt-header__column span:last-child {
-    margin-left:10px;
+    margin-left:15px;
+}
+
+.alt-header__column .fa-bars {
+    font-size:18px;
 }
 
 .alt-header__column .name {
-    position:absolute;
-    top: 40px;
-    left:200px;
+    /* position:absolute;
+    top: 43px;
+    left:200px; */
+    font-size: 20px;
 }
 
 #chat-screen {
     background-color: #abc1d1;
+    height:11000vh;
+}
+
+#chat-screen .status-bar,
+#chat-screen .alt-header {
+    top:0;
+    position:fixed;
+    width:100%;
+    box-sizing: border-box;
+    background-color: #abc1d1;
+    opacity: 0.9;
+}
+
+#chat-screen .status-bar {
+    z-index: 2;
+}
+#chat-screen .alt-header {
+    z-index: 1;
+}
+
+
+.main-chat {
+    margin-top:150px;
 }
