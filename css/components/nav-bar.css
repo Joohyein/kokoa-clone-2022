@@ -23,10 +23,23 @@
     position:absolute;
     left:12px;
     bottom:10px;
+    animation: notificationAnimation 1s ease-in-out;
 }
 
 .nav__dot {
     position:absolute;
     left:16px;
     top: 0px;
+}
+
+@keyframes notificationAnimation {
+    0% {
+        transform: none;
+    }
+    50%{
+        transform:translateY(-5px);
+    }
+    100% {
+        transform:none;
+    }
 }
