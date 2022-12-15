@@ -1,0 +1,13 @@
+.alt-header__column span:last-child {
+    margin-left:10px;
+}
+
+.alt-header__column .name {
+    position:absolute;
+    top: 40px;
+    left:200px;
+}
+
+#chat-screen {
+    background-color: #abc1d1;
+}
