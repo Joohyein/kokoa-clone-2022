@@ -23,7 +23,7 @@
     position:absolute;
     left:12px;
     bottom:10px;
-    animation: notificationAnimation 1s ease-in-out;
+    animation: notificationAnimation 1s ease-in-out infinite;
 }
 
 .nav__dot {

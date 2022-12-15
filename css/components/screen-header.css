@@ -19,3 +19,8 @@
 .screen-header__icons {
     position:relative;
 }
+
+/* Animation - Gear */
+.screen-header__icons .fa-gear:hover {
+    transform: rotateZ(30deg);
+}
